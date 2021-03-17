@@ -1,6 +1,6 @@
 {
   "name": "nestjs-razorpay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy integration for razorpay payment gateway into your nestjs app",
   "main": "./lib/index.js",
   "files": [
