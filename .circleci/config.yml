@@ -79,9 +79,9 @@ jobs:
           name: Run unit tests with code
       - store_artifacts:
           path: coverage
-      - run:
-          command: yarn codecov
-          name: Upload test coverage report to Codecov
+      # - run:
+      #     command: yarn codecov
+      #     name: Upload test coverage report to Codecov
 version: 2.1
 workflows:
   build_test_and_publish:
