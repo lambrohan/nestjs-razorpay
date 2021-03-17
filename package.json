@@ -6,7 +6,11 @@
   "files": [
     "lib"
   ],
-  "author": "Rohan Lamb",
+  "repository": "https://github.com/lambrohan/nestjs-razorpay",
+  "author": {
+    "name": "Rohan Lamb",
+    "url": "https://github.com/lambrohan"
+  },
   "license": "MIT",
   "private": false,
   "scripts": {
