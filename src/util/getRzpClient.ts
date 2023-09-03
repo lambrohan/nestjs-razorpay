@@ -1,4 +1,4 @@
-import Razorpay from 'razorpay';
+import * as Razorpay from 'razorpay';
 import { RzpOptions } from '../interfaces';
 export function getRzpClient(options: RzpOptions) {
   const rzpClient = new Razorpay({

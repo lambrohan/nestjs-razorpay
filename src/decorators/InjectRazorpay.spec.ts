@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { TestingModule, Test } from '@nestjs/testing';
 import { RazorpayModule } from '../RazorpayModule';
 import { InjectRazorpay } from './InjectRazorpay';
-import Razorpay from 'razorpay';
+import * as Razorpay from 'razorpay';
 
 describe('InjectRazorpay', () => {
   let module: TestingModule;
