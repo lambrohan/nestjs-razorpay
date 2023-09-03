@@ -1,0 +1,22 @@
+name: Node.js CI
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      KEY_ID: ${{secrets.KEY_ID}}
+      KEY_SECRET: ${{secrets.KEY_SECRET}}
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm run test
