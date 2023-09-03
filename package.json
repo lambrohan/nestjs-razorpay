@@ -71,5 +71,8 @@
     "moduleNameMapper": {
       "^src/(.*)$": "<rootDir>/$1"
     }
+  },
+  "engines": {
+    "node": ">=16.6.0"
   }
 }
