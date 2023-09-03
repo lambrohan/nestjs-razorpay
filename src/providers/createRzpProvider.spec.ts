@@ -1,6 +1,6 @@
 import { rzpToken } from 'src/constants';
 import { createRzpProvider } from './createRzpProvider';
-import * as Razorpay from 'razorpay';
+import Razorpay from 'razorpay';
 
 describe('when called', () => {
   const key_id = process.env.KEY_ID;

@@ -3,7 +3,7 @@ import { Test } from '@nestjs/testing';
 import { RzpOptions } from './interfaces';
 import { RzpOptionsFactory } from './interfaces/RzpOptionsFactory';
 import { RazorpayModule } from './RazorpayModule';
-import * as Razorpay from 'razorpay';
+import Razorpay from 'razorpay';
 import { rzpToken } from './constants';
 
 describe('RazorpayModule', () => {
